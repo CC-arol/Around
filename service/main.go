@@ -214,7 +214,7 @@ func handlerPost(w http.ResponseWriter, r *http.Request) {
       saveToES(p, id)
 
       // Save to BigTable.
-      saveToBigTable(p, id)
+      //saveToBigTable(p, id)
 }
 
 // Save a post to BigTable
